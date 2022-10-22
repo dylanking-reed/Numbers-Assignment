@@ -29,6 +29,7 @@ void logical_negation_test() {
   assert(lnot(1) == 0);
   assert(lnot(0) == 1);
   assert(lnot(15) == 0);
+  assert(lnot(-15) == 0);
   printf("PASSED\n");
 }
 
