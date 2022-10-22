@@ -19,6 +19,7 @@ void conditional_test() {
   /* assertions */
   assert(ternary(0, 3, 16) == 16);
   assert(ternary(1, 16, 3) == 16);
+  assert(ternary(-1, 16, 3) == 16);
   printf("PASSED\n");
 }
 
